@@ -1,0 +1,76 @@
+<html lang="PL">
+    <head>
+        <meta charset="UTF-8">
+        <title>wycieczka szkolna</title>
+        <style>
+                 
+                 .formularz {
+                    margin-left: auto;
+                   margin-right: auto;
+
+
+                 }
+        </style>
+    </head>
+    <body background="warszawa-pkin-1.jpg"; style="font-size:xx-large;">
+         <form>
+
+            <label style="color:white;" for="Imie">Imię:</label>
+            <input type="text" name="username" placeholder="Wpisz swoje Imie"><br /><br />
+
+            <label style="color:white;" for="Nazwisko">Nazwisko:</label>
+            <input type="text" name="username" placeholder="Wpisz swoje Nazwisko"><br /><br />
+
+            <label style="color:white;" for="data urodzenia">data urodzenia:</label>
+            <input type="date" name="data urodzenia" placeholder="Data urodzenia"><br /><br />
+
+            <label style="color:white;" for="nr_tel">Nr tel:</label>
+            <input type="tel" id="nr tel" name="nr tel" placeholder="Numer telefonu" /><br /><br />
+
+            <label style="color:white;" for="mail">Mail:</label>
+            <input type="email" id="mail" name="mail" placeholder="Mail" /><br /><br />
+
+                <label style="color: white;" for="miejsce">Wybierz miejsce:</label><br />
+                <select id="miejsce" name="miejsce">
+                    <option value="łaźenki KR.">łaźenki KR.</option>
+                    <option value="palac_kultury">PAŁAC KULTURY</option>
+                    <option value="stadion_narodowy">STADION NARODOWY</option>
+                    <option value="muzeum_ws">MUZEUM W.Ś.</option>
+                </select><br /><br />
+
+                <label style="color:white;" for="zyczenie">Życzenie specjalne:</label><br />
+                <textarea id="zyczenie" name="zyczenie" rows="4" cols="40"></textarea><br /><br />
+
+                <label style="color:white;" for="Płeć">Płeć</label><br />
+
+                <label style="color:white;">
+                    <input type="radio" name="plec" value="m" checked> M
+                </label>
+                <label style="color:white;"> 
+                    <input type="radio" plec" value="k"> K
+                </label>
+
+                <label style="color:white;">
+                    <input type="radio" name="plec" value="NW"> Nie wiem
+                </label><br>
+
+
+                <input type="checkbox" id="zazn" checked>
+                <label style="color:white;" for="zazn">pizza</label>
+
+                <input type="checkbox" id="zazn">
+                <label  style="color:white;" for="zazn">MC donald</label>
+
+                <input type="checkbox" id="zazn">
+                <label  style="color:white;" for="zazn">KFC</label>
+                 
+                <br>
+                
+
+                <button type="submit">Wyślij</button>
+                <button type="reset">Reset</button>
+
+
+        </form>
+    </body>
+</html>
